@@ -48,7 +48,6 @@ overlay.addEventListener('click', closeModal);
 
 //Escape key function to close the overlay
 document.addEventListener('keydown', function(e) {
-    if(e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    if(e.key === 'Escape' && !modal.classList.contains('hidden'))
         closeModal();
-    }
 });
